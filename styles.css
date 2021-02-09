@@ -44,7 +44,8 @@
 }
 .car-img1
 {
-  background: url("i1.jpg") 0 0 no-repeat;
+  height:450px;
+  background: url("http://www.radtech.com/images/product/16378/875331003781.jpg") 0 0 no-repeat;
   background-size: cover;
 
 }
