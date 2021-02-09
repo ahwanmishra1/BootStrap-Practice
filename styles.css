@@ -37,15 +37,32 @@
   padding-right: 1.2rem !important;
 }
 
-
-
-.carousel-inner{
-  height: 450px;
+.item-desc{
+  text-align: center;
+  padding: 3.5rem;
 }
+.item-desc h1{
+  margin: 0;
+}
+
 .car-img1
 {
   height:450px;
-  background: url("http://www.radtech.com/images/product/16378/875331003781.jpg") 0 0 no-repeat;
+  background: url("s1.jpg") 0 0 no-repeat;
+  background-size: cover;
+
+}
+.car-img2
+{
+  height:450px;
+  background: url("s2.png") 0 0 no-repeat;
+  background-size: cover;
+
+}
+.car-img3
+{
+  height:450px;
+  background: url("s3.jpg") 0 0 no-repeat;
   background-size: cover;
 
 }
@@ -114,11 +131,4 @@
 hr{
   padding:0;
   margin: 0;
-}
-
-@media only screen and (max-width: 1200px)
-{
-  .carousel-inner{
-    height: 600px;
-  }
 }
