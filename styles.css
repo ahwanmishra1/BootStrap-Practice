@@ -36,3 +36,12 @@
   padding-left: 1.2rem !important;
   padding-right: 1.2rem !important;
 }
+
+
+
+.carousel-inner{
+  height: 450px;
+}
+.car-img1{
+  background-image: image("https://i.insider.com/540f3701eab8eaf81065a627?width=700");
+}
