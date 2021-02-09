@@ -48,6 +48,15 @@
   background-size: cover;
 
 }
+.abc{
+  box-size:none !important;
+}
+.mainlogo{
+  height:48px;
+  background-color: black;
+  background: url("https://logos-download.com/wp-content/uploads/2016/10/SnapDeal_logo_Snap_Deal.png") 0 0 no-repeat;
+  background-size: contain;
+}
 .adv{
   color:white;
   text-align: center;
