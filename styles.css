@@ -43,7 +43,63 @@
   height: 450px;
 }
 .car-img1
-  background: url("") 0 0 no-repeat;
+{
+  background: url("i1.jpg") 0 0 no-repeat;
   background-size: cover;
-	height: 300px;
+
+}
+.adv, .clogo{
+  color:white;
+  text-align: center;
+  margin:10px;
+  padding:20px;
+
+}
+.advertisement
+{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.adv i{
+  font-size:2rem;
+  padding-bottom: 10px;
+}
+
+.phead{
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+.nav-b{
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px 0.5rem 5px;
+  padding: 4px 8px;
+  background-color:red;
+}
+
+.products{
+  padding: 1rem 0;
+}
+.company{
+  padding: 1rem 0;
+}
+.clogo{
+  height:175px;
+}
+
+hr{
+  padding:0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px)
+{
+  .carousel-inner{
+    height: 600px;
+  }
 }
