@@ -104,7 +104,7 @@
   color: white;
   text-align: center;
   display: inline-block;
-  margin: 0 5px 0.5rem 5px;
+  margin: 0 0 0.5rem 10px;
   padding: 4px 8px;
 }
 
@@ -151,7 +151,7 @@ hr{
 }
 
 .topsell-head{
-  margin: 1rem 0;
+  margin: 2.5rem 0;
 }
 .topsell-head h2{
   font-size: 1.75rem;
@@ -162,8 +162,7 @@ hr{
 }
 .product-card-image{
   height: 100px;
-  border: 1px solid;
-  border-color:#d3d3d3;
+  border: 1px solid #d3d3d3;
   background: url("https://cdn.homeshopping.pk/product_images/n/536/small_oneplus_6_mirror_black_1__57545_zoom.jpg") 0 0 no-repeat;
   background-size: cover;
 }
@@ -175,4 +174,36 @@ hr{
 }
 .checked {
   color: orange;
+}
+hr.separator {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #d3d3d3;
+}
+
+.notification {
+  color:#6c757d;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  position: relative;
+  display: inline-block;
+  border-radius: 0.25rem;
+  border: 1px solid #6c757d;
+}
+
+.notification:hover {
+  background: #6c757d;
+  color: white;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 50%;
+  color: white;
+}
+del{
+  color: #d7d7d7;
 }
