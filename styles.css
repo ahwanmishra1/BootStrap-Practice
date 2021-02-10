@@ -28,13 +28,18 @@
 .main-nav{
   padding: 0;
 }
-.main-nav .active{
-  background-color: #6c757d;
+
+.main-nav .nav-link:hover{
+  background-color: #acacac;
   color: white !important;
 }
 .main-nav .nav-link{
   padding-left: 1.2rem !important;
   padding-right: 1.2rem !important;
+}
+.main-nav .active{
+  background-color: #6c757d;
+  color: white !important;
 }
 
 .item-desc{
@@ -78,7 +83,6 @@
 .adv{
   color:white;
   text-align: center;
-  margin:4px;
   padding:2rem;
 
 }
