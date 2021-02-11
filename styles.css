@@ -2,6 +2,9 @@
   padding: 0;
   font-size: 0.9rem;
 }
+.navbar-toggler {
+  float: left;
+}
 .topnav .nav-item{
   padding-right: 5px;
 }
@@ -30,7 +33,7 @@
 }
 
 .main-nav .nav-link:hover{
-  background-color: #acacac;
+  background-color: #6c757d;
   color: white !important;
 }
 .main-nav .nav-link{
@@ -84,7 +87,7 @@
   color:white;
   text-align: center;
   padding:2rem;
-
+  margin-bottom: 1rem;
 }
 .advertisement
 {
@@ -167,8 +170,7 @@ hr{
 .product-card-image{
   height: 100px;
   border: 1px solid #d3d3d3;
-  background: url("https://cdn.homeshopping.pk/product_images/n/536/small_oneplus_6_mirror_black_1__57545_zoom.jpg") 0 0 no-repeat;
-  background-size: cover;
+
 }
 .product-card-description{
   padding-left: 1rem;
@@ -210,4 +212,47 @@ hr.separator {
 }
 del{
   color: #d7d7d7;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+.notification1 {
+  color:#6c757d;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  font-size: 1.2rem;
+}
+.profile-menu{
+  color:#6c757d;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.dropdown-item, .nav-link{
+  color:#6c757d;
+}
+.notification1 .badge1 {
+  font-size: 0.75rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.numberCircle {
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    padding: 2px 6px;
+    color: white;
+    background-color: red;
+}
+.bbb{
+  padding-left: 1rem;
+}
+@media only screen and (min-width: 800px)
+{
+  .bbb{
+    display: none;
+  }
 }
